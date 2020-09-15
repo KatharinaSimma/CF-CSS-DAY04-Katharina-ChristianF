@@ -1,9 +1,19 @@
 body {
+  font: 100% sans-serif;
+  color: black;
   background-color: lightblue;
-  font-family: sans-serif;
+  border: solid 2px red;
 }
 
 p {
   color: blue;
+  border: solid 2px red;
+}
+
+main {
+  background-image: url(leaves.webP);
+  background-size: 100%;
+  padding-bottom: 50%;
+  border: solid 2px red;
 }
 /*# sourceMappingURL=style.css.map */
