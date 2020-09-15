@@ -1,19 +1,37 @@
 body {
   font: 100% sans-serif;
   color: black;
-  background-color: lightblue;
-  border: solid 2px red;
 }
 
 p {
-  color: blue;
-  border: solid 2px red;
+  color: white;
+  text-align: center;
 }
 
 main {
   background-image: url(leaves.webP);
   background-size: 100%;
-  padding-bottom: 50%;
-  border: solid 2px red;
+  padding-bottom: 33%;
+  font-size: 155px;
+}
+
+main p {
+  color: brown;
+}
+
+header {
+  background-color: #195c6e;
+  padding: 1%;
+  text-align: right;
+  font-size: 150%;
+  margin: 0;
+}
+
+footer {
+  background-color: #195c6e;
+  padding: 1%;
+  text-align: right;
+  font-size: 150%;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
