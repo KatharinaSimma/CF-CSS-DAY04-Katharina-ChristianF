@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*default appearance*/
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1em;
+}
+
+/* Flexbox container default */
+/*body div
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-direction: column
+    flex-direction: column*/
+/*big screen*/
+@media screen and (min-width: 561px) {
+  body div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-preferred-size: 27%;
+        flex-basis: 27%;
+  }
+}
+
+/*small screen*/
+@media screen and (max-width: 560px) {
+  body div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+  }
+}
+/*# sourceMappingURL=Photo Album Katharina.css.map */
